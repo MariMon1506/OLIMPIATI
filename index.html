@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Juegos Olimpiati</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@700&display=swap">
+<style>
+:root{--night:#120d33;--ink:#f4efff;--muted:#a597d9;--orange:#ff8a3d;--teal:#2ec4b6;--sky:#8fd0ff;--navy:#0a1a40;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(900px 500px at 50% -10%,#2a1f6e,var(--night) 65%);color:var(--ink);font-family:"Nunito",system-ui,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:36px;padding:40px 16px}
+small{font-family:"Baloo 2",system-ui,sans-serif;font-weight:800;letter-spacing:.18em;background:var(--teal);color:var(--night);border-radius:999px;padding:4px 14px 2px}
+h1{font-family:"Baloo 2",system-ui,sans-serif;font-weight:800;font-size:clamp(40px,7vw,80px);margin:10px 0 0;line-height:1;text-align:center}
+.head{display:flex;flex-direction:column;align-items:center}
+.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;width:min(860px,100%)}
+a{display:flex;flex-direction:column;align-items:center;gap:14px;text-decoration:none;border-radius:30px;padding:30px 24px 28px;border:3px solid;transition:transform .15s}
+a:hover,a:focus-visible{transform:translateY(-5px)}
+a svg{width:110px;height:110px}
+a b{font-family:"Baloo 2",system-ui,sans-serif;font-weight:800;font-size:clamp(26px,3.4vw,36px);line-height:1.05;text-align:center}
+a span{color:var(--muted);text-align:center}
+.blue{background:linear-gradient(180deg,#14306c,#0b1c42);border-color:var(--sky);color:var(--sky)}
+.purple{background:linear-gradient(180deg,#33247e,#221862);border-color:var(--orange);color:var(--orange)}
+</style>
+</head>
+<body>
+<div class="head"><small>OLIMPIATI</small><h1>Elige el juego</h1></div>
+<div class="games">
+  <a class="blue" href="100%20Estudiantecs%20Dijeron.html">
+    <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M27 36 L20 10 L42 28Z" fill="#2f5bb5"/><path d="M73 36 L80 10 L58 28Z" fill="#2f5bb5"/><rect x="16" y="24" width="68" height="70" rx="32" fill="#5aa9ff"/><circle cx="50" cy="52" r="15" fill="#fff"/><circle cx="52.7" cy="53.8" r="7.8" fill="#0a1a40"/><circle cx="54.8" cy="51.2" r="2.5" fill="#fff"/><path d="M37 73 Q50 83 63 73" stroke="#0a1a40" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+    <b>100 Estudiantecs Dijeron</b><span>Voltea las respuestas más dichas</span>
+  </a>
+  <a class="purple" href="Mentiroso%20%C2%B7%20Olimpiati.html">
+    <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M24 40 L16 14 L40 30Z" fill="#2ec4b6"/><path d="M76 40 L84 14 L60 30Z" fill="#2ec4b6"/><path d="M12 96 C10 52 28 28 50 28 C72 28 90 52 88 96Z" fill="#ff8a3d"/><circle cx="34" cy="58" r="9" fill="#fff"/><circle cx="35.6" cy="59" r="4.7" fill="#1a1245"/><circle cx="66" cy="58" r="9" fill="#fff"/><circle cx="67.6" cy="59" r="4.7" fill="#1a1245"/><circle cx="50" cy="44" r="10" fill="#fff"/><circle cx="51.8" cy="45.2" r="5.2" fill="#1a1245"/><path d="M34 76 Q50 90 66 76Z" fill="#1a1245"/></svg>
+    <b>Mentiroso</b><span>Apuesta, sube o grita «¡mentiroso!»</span>
+  </a>
+</div>
+</body>
+</html>
